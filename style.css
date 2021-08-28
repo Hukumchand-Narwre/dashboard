@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #cdd6e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.side-box-container {
+  width: 30rem;
+  background-color: #015eff;
+  height: 80vh;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.side-main-heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.p-color {
+  color: #002366;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.side-main-paragraph {
+  margin-bottom: 0.1rem;
+}
+
+.side-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.stand-image {
+  align-self: flex-end;
+}
+
+.main-box {
+  margin-top: 4rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6f9;
+  width: 50rem;
+  padding-left: 6rem;
+}
+.get-help-container {
+  align-self: flex-end;
+}
+
+.get-help {
+  color: #5292eb;
+  font-size: 1.3rem;
+  padding-bottom: 1.2rem;
+}
+
+.main-box-main-heading {
+  margin-bottom: 2rem;
+}
+
+.main-box-main-heading p {
+  color: gray;
+  font-size: 1.1rem;
+  transform: translateX(3px);
+}
+
+.card {
+  width: 40rem;
+  height: 10rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.card-1 {
+  background-color: transparent;
+}
+
+.main-heading {
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  border: 2px solid rgba(131, 144, 223, 1);
+}
+.o1 {
+  display: flex;
+  align-items: center;
+}
+
+.group-svg svg {
+  height: 5rem;
+  width: 5rem;
+  color: white;
+  background-color: rgba(131, 144, 223, 1);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.llc {
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+  letter-spacing: 0.6px;
+}
+
+.llc p {
+  font-size: 1.4rem;
+  margin-top: -0.5rem;
+}
+
+.arrow {
+  margin-left: auto;
+}
+
+.arrow svg {
+  height: 2rem;
+  width: 2rem;
+  color: rgba(131, 144, 223, 1);
+}
+
+.svg svg {
+  color: rgba(131, 144, 223, 1);
+  border: 1px solid rgba(131, 144, 223, 1);
+  background-color: transparent;
+}
+
+@media (max-width: 1000px) {
+  .side-box-container {
+    width: 40rem;
+  }
+
+  .card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .main-box {
+    width: 40rem;
+    margin-top: 0;
+  }
+
+  .container {
+    padding-left: 0px;
+  }
+
+  .side-box-container {
+    margin-top: 0;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+}
